@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous">
     <title>Portfolio</title>
     <meta name="viewport" content="width=device-width, user-scalable-no, initial-scale=1.0, maximum-scale-1.0, minimum-scale-1.0">
+    <script src="Jquery/jquery-3.6.0.min.js"></script>
+
 </head>
 <body>
 <div id="h" class="wrapper">
@@ -18,10 +20,10 @@
                  <div class="icon"></div>
              </div>
              <ul class="menu">
-                 <li ><a class="active" href="#h">Home</a></li>
-                 <li><a href="#about1">About me</a></li>
+                 <li class="homejs"><a class="volver" href="#h">Home</a></li>
+                 <li id="texto"><a id="aboutjs" href="#about1">About me</a></li>
                  <li><a href="#portfolio">Portfolio</a></li>
-                 <li><a href="#hitme">Contact</a></li>
+                 <li id="contacjs"><a id="contacto" href="#hitme">Contact</a></li>
              </ul>
          </nav>
     </header>
@@ -136,6 +138,12 @@
 
 
 </footer>
+
+<button>Press Here</button>
+
+<script src="move.js"> </script>
+
+
 
 </body>
 </html>
